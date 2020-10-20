@@ -1,28 +1,29 @@
-
-#include <stdio.h>
-//定义结构体 Student
-struct Student{
-    //结构体包含的成员变量
-    char *name;
-    int age;
-    float score;
+#include<iostream>
+using namespace std;
+//基类People
+class People{
+protected:
+    char *m_name;
+    int m_age;
+public:
+    People(char*, int);
 };
-//显示结构体的成员变量
-void display(struct Student stu){
-    printf("%s的年龄是 %d，成绩是 %f\n", stu.name, stu.age, stu.score);
+People::People(char *name, int age): m_name(name), m_age(age){}
+//派生类Student
+class Student: public People{
+private:
+    float m_score;
+public:
+    Student(char *name, int age, float score);
+    void display();
+};
+//People(name, age)就是调用基类的构造函数
+Student::Student(char *name, int age, float score): People(name, age), m_score(score){ }
+void Student::display(){
+    cout<<m_name<<"的年龄是"<<m_age<<"，成绩是"<<m_score<<"。"<<endl;
 }
-
-
-
 int main(){
-    struct Student stu1,stu2;
-    //为结构体的成员变量赋值
-    stu1.name = "小明";
-    stu1.age = 15;
-    stu1.score = 92.5;
-    //调用函数
-    display(stu1);
-
+    Student stu("小明", 16, 90.5);
+    stu.display();
     return 0;
 }
-

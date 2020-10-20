@@ -80,7 +80,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/OneDrive/github/cpp-data_structure/cpp/unit1.cpp">
+		<Unit filename="D:/OneDrive/github/cpp-data_structure/cpp/list1.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/github/cpp-data_structure/cpp_10th/test.cpp">
 			<Option target="main"/>
 		</Unit>
 		<Unit filename="D:/OneDrive/github/cpp-data_structure/cpp/CMakeLists.txt">

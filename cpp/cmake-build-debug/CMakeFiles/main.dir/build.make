@@ -56,32 +56,47 @@ include CMakeFiles/main.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/main.dir/flags.make
 
-CMakeFiles/main.dir/unit1.cpp.obj: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/unit1.cpp.obj: ../unit1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\github\cpp-data_structure\cpp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/unit1.cpp.obj"
-	D:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\main.dir\unit1.cpp.obj -c D:\OneDrive\github\cpp-data_structure\cpp\unit1.cpp
+CMakeFiles/main.dir/list1.cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/list1.cpp.obj: ../list1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\github\cpp-data_structure\cpp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/list1.cpp.obj"
+	D:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\main.dir\list1.cpp.obj -c D:\OneDrive\github\cpp-data_structure\cpp\list1.cpp
 
-CMakeFiles/main.dir/unit1.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/unit1.cpp.i"
-	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\OneDrive\github\cpp-data_structure\cpp\unit1.cpp > CMakeFiles\main.dir\unit1.cpp.i
+CMakeFiles/main.dir/list1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/list1.cpp.i"
+	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\OneDrive\github\cpp-data_structure\cpp\list1.cpp > CMakeFiles\main.dir\list1.cpp.i
 
-CMakeFiles/main.dir/unit1.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/unit1.cpp.s"
-	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\OneDrive\github\cpp-data_structure\cpp\unit1.cpp -o CMakeFiles\main.dir\unit1.cpp.s
+CMakeFiles/main.dir/list1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/list1.cpp.s"
+	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\OneDrive\github\cpp-data_structure\cpp\list1.cpp -o CMakeFiles\main.dir\list1.cpp.s
+
+CMakeFiles/main.dir/D_/OneDrive/github/cpp-data_structure/cpp_10th/test.cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/D_/OneDrive/github/cpp-data_structure/cpp_10th/test.cpp.obj: D:/OneDrive/github/cpp-data_structure/cpp_10th/test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\github\cpp-data_structure\cpp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/D_/OneDrive/github/cpp-data_structure/cpp_10th/test.cpp.obj"
+	D:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\main.dir\D_\OneDrive\github\cpp-data_structure\cpp_10th\test.cpp.obj -c D:\OneDrive\github\cpp-data_structure\cpp_10th\test.cpp
+
+CMakeFiles/main.dir/D_/OneDrive/github/cpp-data_structure/cpp_10th/test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/D_/OneDrive/github/cpp-data_structure/cpp_10th/test.cpp.i"
+	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\OneDrive\github\cpp-data_structure\cpp_10th\test.cpp > CMakeFiles\main.dir\D_\OneDrive\github\cpp-data_structure\cpp_10th\test.cpp.i
+
+CMakeFiles/main.dir/D_/OneDrive/github/cpp-data_structure/cpp_10th/test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/D_/OneDrive/github/cpp-data_structure/cpp_10th/test.cpp.s"
+	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\OneDrive\github\cpp-data_structure\cpp_10th\test.cpp -o CMakeFiles\main.dir\D_\OneDrive\github\cpp-data_structure\cpp_10th\test.cpp.s
 
 # Object files for target main
 main_OBJECTS = \
-"CMakeFiles/main.dir/unit1.cpp.obj"
+"CMakeFiles/main.dir/list1.cpp.obj" \
+"CMakeFiles/main.dir/D_/OneDrive/github/cpp-data_structure/cpp_10th/test.cpp.obj"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
 
-main.exe: CMakeFiles/main.dir/unit1.cpp.obj
+main.exe: CMakeFiles/main.dir/list1.cpp.obj
+main.exe: CMakeFiles/main.dir/D_/OneDrive/github/cpp-data_structure/cpp_10th/test.cpp.obj
 main.exe: CMakeFiles/main.dir/build.make
 main.exe: CMakeFiles/main.dir/linklibs.rsp
 main.exe: CMakeFiles/main.dir/objects1.rsp
 main.exe: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\OneDrive\github\cpp-data_structure\cpp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable main.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\OneDrive\github\cpp-data_structure\cpp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable main.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\main.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -6,10 +6,16 @@ project(main)
 
 # set(变量 值)
 set(CMAKE_C_STANDARD 99)
-set(SOURCE_FILES unit1.cpp)
+set(SOURCE_FILES cpp_10th/sr1-3.cpp)
+# filedictionary/file.cpp
 # main.cpp 主函数
 # 1.cpp 测试文件
 # unit1.cpp 第一章从C到C++
+# unit2.cpp 第二章类和对象
+# unit2-1.cpp C++析构函数详解
+# const.cpp 详细了解const的全部用法
+# this.cpp C++ this指针详解
+# static.cpp static静态成员变量详解
 
 
 

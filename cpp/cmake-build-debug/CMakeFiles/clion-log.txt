@@ -1,4 +1,1 @@
-"D:\JetBrains\CLion 2019.3.5\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" D:\OneDrive\github\cpp-data_structure\cpp
--- Configuring done
--- Generating done
--- Build files have been written to: D:/OneDrive/github/cpp-data_structure/cpp/cmake-build-debug
+CMakeLists.txt not found in D:\OneDrive\github\cpp-data_structure\cpp Select CMakeLists.txt file...

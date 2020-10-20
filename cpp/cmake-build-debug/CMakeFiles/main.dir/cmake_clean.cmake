@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/main.dir/unit1.cpp.obj"
+  "CMakeFiles/main.dir/D_/OneDrive/github/cpp-data_structure/cpp_10th/test.cpp.obj"
+  "CMakeFiles/main.dir/list1.cpp.obj"
   "libmain.dll.a"
   "main.exe"
   "main.exe.manifest"

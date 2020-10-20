@@ -122,32 +122,59 @@ main/fast:
 	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
-unit1.obj: unit1.cpp.obj
+D_/OneDrive/github/cpp-data_structure/cpp_10th/test.obj: D_/OneDrive/github/cpp-data_structure/cpp_10th/test.cpp.obj
 
-.PHONY : unit1.obj
+.PHONY : D_/OneDrive/github/cpp-data_structure/cpp_10th/test.obj
 
 # target to build an object file
-unit1.cpp.obj:
-	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/unit1.cpp.obj
-.PHONY : unit1.cpp.obj
+D_/OneDrive/github/cpp-data_structure/cpp_10th/test.cpp.obj:
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/D_/OneDrive/github/cpp-data_structure/cpp_10th/test.cpp.obj
+.PHONY : D_/OneDrive/github/cpp-data_structure/cpp_10th/test.cpp.obj
 
-unit1.i: unit1.cpp.i
+D_/OneDrive/github/cpp-data_structure/cpp_10th/test.i: D_/OneDrive/github/cpp-data_structure/cpp_10th/test.cpp.i
 
-.PHONY : unit1.i
+.PHONY : D_/OneDrive/github/cpp-data_structure/cpp_10th/test.i
 
 # target to preprocess a source file
-unit1.cpp.i:
-	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/unit1.cpp.i
-.PHONY : unit1.cpp.i
+D_/OneDrive/github/cpp-data_structure/cpp_10th/test.cpp.i:
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/D_/OneDrive/github/cpp-data_structure/cpp_10th/test.cpp.i
+.PHONY : D_/OneDrive/github/cpp-data_structure/cpp_10th/test.cpp.i
 
-unit1.s: unit1.cpp.s
+D_/OneDrive/github/cpp-data_structure/cpp_10th/test.s: D_/OneDrive/github/cpp-data_structure/cpp_10th/test.cpp.s
 
-.PHONY : unit1.s
+.PHONY : D_/OneDrive/github/cpp-data_structure/cpp_10th/test.s
 
 # target to generate assembly for a file
-unit1.cpp.s:
-	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/unit1.cpp.s
-.PHONY : unit1.cpp.s
+D_/OneDrive/github/cpp-data_structure/cpp_10th/test.cpp.s:
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/D_/OneDrive/github/cpp-data_structure/cpp_10th/test.cpp.s
+.PHONY : D_/OneDrive/github/cpp-data_structure/cpp_10th/test.cpp.s
+
+list1.obj: list1.cpp.obj
+
+.PHONY : list1.obj
+
+# target to build an object file
+list1.cpp.obj:
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/list1.cpp.obj
+.PHONY : list1.cpp.obj
+
+list1.i: list1.cpp.i
+
+.PHONY : list1.i
+
+# target to preprocess a source file
+list1.cpp.i:
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/list1.cpp.i
+.PHONY : list1.cpp.i
+
+list1.s: list1.cpp.s
+
+.PHONY : list1.s
+
+# target to generate assembly for a file
+list1.cpp.s:
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/list1.cpp.s
+.PHONY : list1.cpp.s
 
 # Help Target
 help:
@@ -158,9 +185,12 @@ help:
 	@echo ... edit_cache
 	@echo ... main
 	@echo ... rebuild_cache
-	@echo ... unit1.obj
-	@echo ... unit1.i
-	@echo ... unit1.s
+	@echo ... D_/OneDrive/github/cpp-data_structure/cpp_10th/test.obj
+	@echo ... D_/OneDrive/github/cpp-data_structure/cpp_10th/test.i
+	@echo ... D_/OneDrive/github/cpp-data_structure/cpp_10th/test.s
+	@echo ... list1.obj
+	@echo ... list1.i
+	@echo ... list1.s
 .PHONY : help
 
 
